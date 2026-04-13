@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /secreto/
+Disallow: /secreto.txt/
 
 Sitemap: https://maurobuck.github.io/Projeto-Site/sitemap.xml
