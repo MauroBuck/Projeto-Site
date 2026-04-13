@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /secreto/
 
-Sitemap: https://seuusuario.github.io/artemis-retorno-lua/sitemap.xml
+Sitemap: https://maurobuck.github.io/Projeto-Site/sitemap.xml
