@@ -1,0 +1,220 @@
+/* Estilos do site - Mauro Eduardo Andréo Buck - RA 5166312 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #003366;
+    padding: 10px 20px;
+    color: white;
+}
+
+header img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* NAVEGAÇÃO */
+nav {
+    background-color: #0055a5;
+    padding: 8px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.ativo {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* CONTEÚDO */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #0055a5;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* TABELAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+table th {
+    background-color: #003366;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+table td {
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* LISTAS */
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+ul li, ol li {
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+/* GALERIA DE FOTOS */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.galeria img {
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid #cccccc;
+}
+
+.galeria figure {
+    margin: 0;
+    text-align: center;
+}
+
+.galeria figcaption {
+    font-size: 0.78rem;
+    color: #666666;
+    width: 260px;
+    margin-top: 4px;
+}
+
+/* LINKS EXTERNOS */
+.lista-links {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-links li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #003366;
+}
+
+.lista-links li a {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lista-links li a:hover {
+    text-decoration: underline;
+}
+
+.lista-links li span {
+    display: block;
+    font-size: 0.85rem;
+    color: #666666;
+    margin-top: 3px;
+}
+
+/* FORMULÁRIO */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    color: #003366;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #aaaaaa;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    padding: 9px 22px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0055a5;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.85rem;
+    line-height: 1.7;
+}
