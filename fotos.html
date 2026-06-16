@@ -7,6 +7,14 @@
   <meta name="keywords" content="NASA, Artemis, Lua, espaco, exploracao espacial" />
   <meta name="author" content="Mauro Eduardo Andréo Buck" />
   <title>Galeria - Artemis: O Retorno à Lua</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TVV311R51"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4TVV311R51');
+  </script>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -16,7 +24,8 @@
   </a>
   <h1>Artemis: O Retorno &agrave; Lua</h1>
 </header>
-<nav>
+<button class="menu-toggle" aria-controls="menu-principal" aria-expanded="false">☰ Menu</button>
+<nav id="menu-principal" class="menu-principal">
   <a href="index.html">In&iacute;cio</a>
   <a href="artemis.html">Programa</a>
   <a href="missoes.html">Miss&otilde;es</a>
@@ -36,53 +45,51 @@
     Todas as fotos s&atilde;o de dom&iacute;nio p&uacute;blico, disponibilizadas pela NASA.
     Para mais imagens, acesse <a href="https://images.nasa.gov" target="_blank">images.nasa.gov</a>.
   </p>
+  <div class="aviso-galeria">
+    Clique em uma imagem para ampliar. Agora as fotos est&atilde;o salvas localmente na pasta <strong>imagens/</strong>, usando os arquivos que voc&ecirc; enviou.
+  </div>
+
   <div class="galeria">
 
     <figure>
       <img
-        src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/04/220403142345-02-nasa-artemis-i-rocket-stack.jpg?w=1200&h=900&crop=0"
-        alt="Lan&ccedil;amento Artemis I &mdash; Kennedy Space Center, 2022"
-        onerror="this.onerror=null;this.src='imagens/artemis1_launch.svg';" />
+        src="imagens/galeria_1_lancamento_artemis.webp"
+        alt="Lan&ccedil;amento Artemis I &mdash; Kennedy Space Center, 2022" />
       <figcaption>Lan&ccedil;amento Artemis I &mdash; Kennedy Space Center, 2022</figcaption>
     </figure>
 
     <figure>
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Aldrin_Apollo_11_original.jpg/400px-Aldrin_Apollo_11_original.jpg"
-        alt="Buzz Aldrin na Lua &mdash; Apollo 11, 1969"
-        onerror="this.onerror=null;this.src='imagens/aldrin_lua.svg';" />
-      <figcaption>Buzz Aldrin caminhando na Lua &mdash; Apollo 11, 1969</figcaption>
+        src="imagens/galeria_2_astronauta_lua.webp"
+        alt="Astronauta na Lua &mdash; miss&atilde;o Apollo" />
+      <figcaption>Astronauta caminhando na Lua &mdash; miss&atilde;o Apollo</figcaption>
     </figure>
 
     <figure>
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/400px-The_Earth_seen_from_Apollo_17.jpg"
-        alt="A Terra vista da Apollo 17 &mdash; Marble Azul, 1972"
-        onerror="this.onerror=null;this.src='imagens/terra_apollo17.svg';" />
+        src="imagens/galeria_3_terra_apollo17.webp"
+        alt="A Terra vista da Apollo 17 &mdash; Marble Azul, 1972" />
       <figcaption>A Terra vista da Apollo 17 &mdash; &ldquo;Marble Azul&rdquo;, 1972</figcaption>
     </figure>
 
     <figure>
       <img
-        src="https://img.odcdn.com.br/wp-content/uploads/2023/11/earthrise.webp"
-        alt="Earthrise &mdash; Terra nascendo vista da &oacute;rbita lunar, Apollo 8, 1968"
-        onerror="this.onerror=null;this.src='imagens/lua_superficie.svg';" />
+        src="imagens/galeria_4_earthrise.webp"
+        alt="Earthrise &mdash; Terra nascendo vista da &oacute;rbita lunar, Apollo 8, 1968" />
       <figcaption>Earthrise &mdash; Terra nascendo vista da &oacute;rbita lunar, Apollo 8</figcaption>
     </figure>
 
     <figure>
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/International_Space_Station_after_undocking_of_STS-132.jpg/400px-International_Space_Station_after_undocking_of_STS-132.jpg"
-        alt="Esta&ccedil;&atilde;o Espacial Internacional (ISS) em &oacute;rbita"
-        onerror="this.onerror=null;this.src='imagens/iss.svg';" />
+        src="imagens/galeria_5_iss.png"
+        alt="Esta&ccedil;&atilde;o Espacial Internacional (ISS) em &oacute;rbita" />
       <figcaption>Esta&ccedil;&atilde;o Espacial Internacional (ISS) em &oacute;rbita</figcaption>
     </figure>
 
     <figure>
       <img
-        src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/4594/live/e9c25b30-35fe-11f1-879d-1b2f5c3919b8.jpg.webp"
-        alt="Tripula&ccedil;&atilde;o da Artemis II &mdash; Koch, Wiseman, Glover e Hansen"
-        onerror="this.onerror=null;this.src='imagens/artemis2_crew.svg';" />
+        src="imagens/galeria_6_tripulacao_artemis.webp"
+        alt="Tripula&ccedil;&atilde;o da Artemis II &mdash; Koch, Wiseman, Glover e Hansen" />
       <figcaption>Tripula&ccedil;&atilde;o da Artemis II &mdash; Koch, Wiseman, Glover e Hansen</figcaption>
     </figure>
 
@@ -94,5 +101,6 @@
   <p>Aluno: Mauro Eduardo Andr&eacute;o Buck &nbsp;|&nbsp; RA: 5166312</p>
   <p>Disciplina: Tecnologias para Internet &nbsp;|&nbsp; Professor: Joabe Fuzaro &nbsp;|&nbsp; Uniube</p>
 </footer>
+<script src="js/script.js"></script>
 </body>
 </html>
